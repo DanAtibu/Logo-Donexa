@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --bg : #1e1c30;
+    --bar : #0079ff;
+    --txt : white;
+    --box : #28273f;
+    --line : #0087f9;
+
+    --sbar : rgba(0,121,255,1); 
+
+	--grColor :#6dc05a;
+	--blColor :#4f8bc3;
+	/* --ylColor :#bbb352; */
+    --ylColor: rgba(254 , 189, 11, 1);
+	--rdColor :#ab0008;
+	--gdColor :#EEE;
+
+    --black: #000;
+    --black2: #18191a;
+    --rsColor : rgb(255 , 99 , 132 );
+
+    --boxShadow : rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    /* font-family: 'Montserrat'; */
+    font-weight: bold;
+}
+section {
+    height: 100vh;
+}
+section , #logo1 , #logo2, #logo3 , #logo3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo1 {
+    /* flex-direction: column; */
+} 
+#logo1 img {
+    background-color: var(--bar);
+    border-radius: 50%;
+    padding: 2rem;
+    color: var(--txt);
+    width: 20%;
+}
+#logo1 p {
+    font-size: 9rem;
+}
+#logo1 p span {
+    color: var(--bar);
+}
+
+/* ================= LOGO 2 ===================== */
+
+#logo2 {
+}
+h1 , p {
+    font-size: 7rem;
+}
+#logo2 h1 {
+    color: var(--black);
+    padding: 2rem;
+    border-radius: 50%;
+}
+#logo2 p span {
+    color: var(--bar);
+}
+
+/* ================= LOGO 2 2 ===================== */
+
+#logo2.logo02 {
+    padding: 0rem 5rem;
+    border-radius: 10px;
+    background-color: var(--black);
+}
+#logo2.logo02 , #logo2.logo02 h1 {color: var(--txt);}
+
+/* ================= LOGO 3 ===================== */
+#logo3 {
+    overflow: hidden;
+    border-radius: .5rem;
+}
+#logo3 div {
+    text-transform: lowercase;
+    background-color: var(--bar);
+    color: var(--txt);
+    /* padding: 1rem; */
+    /* height: 10rem; */
+    width: 10rem;
+}
+#logo3 p {
+    font-size: 7rem;
+}
+#logo3 p:nth-child(2) {
+    color: var(--txt);
+    padding: 0rem 2rem;
+    background-color: var(--black);
+}
+#logo3 p span {color: var(--bar);}
+/* ================= LOGO 4 ===================== */
+#logo4 {
+    padding: 0rem 4rem;
+    border: 3px solid var(--bar);
+    border-radius: 7px;
+}
+#logo4 p span {color: var(--bar);}
+
+/* ================= LOGO 5 ===================== */
+#logo5 {
+    padding: 0rem 4rem;
+    border: 3px solid var(--rdColor);
+    border-radius: 7px;
+}
+#logo5 p span {color: var(--rdColor);}
+
+
+/* ================= LOGO 6 ===================== */
+#logo6 p span {color: var(--rdColor);}
+
+/* ================= LOGO 7 ===================== */
+#logo7 p span {
+    color: var(--bar);
+}
+
+/* ================= LOGO 8 ===================== */
